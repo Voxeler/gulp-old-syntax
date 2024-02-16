@@ -1,0 +1,31 @@
+/* Base */
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/base";
+@import "./base/utils";
+@import "./base/containers";
+@import "./base/sticky-footer";
+
+/* Blocks 
+@import "./blocks/*.scss";
+если включен gulp-sass-glob
+*/
+
+/* Bootstrap 
+@import "./base/bootstrap-styles";
+*/
+
+@import "./blocks/header";
+@import "./blocks/footer";
+@import "./blocks/logo";
+@import "./blocks/mobile-nav";
+@import "./blocks/nav-icon";
+
+
+
+
+
+
+
+
+
