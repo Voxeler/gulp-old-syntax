@@ -96,12 +96,12 @@ npm uninstall packname
 Пример вывода навигации через JSON:
 
 <ul>
-		<li><a href="@@pathIndex" class="active">Home</a></li>
-		<li><a href="@@pathServices">Services</a></li>
-		<li><a href="@@pathAbout">About</a></li>
-		<li><a href="@@pathProjects">Projects</a></li>
-		<li><a href="@@pathContact">Contact</a></li>
-	</ul>
+<li><a href="@@pathIndex" class="active">Home</a></li>
+<li><a href="@@pathServices">Services</a></li>
+<li><a href="@@pathAbout">About</a></li>
+<li><a href="@@pathProjects">Projects</a></li>
+<li><a href="@@pathContact">Contact</a></li>
+</ul>
 
 @@include('./blocks/nav.html', {
     "pathIndex":"index.html",
